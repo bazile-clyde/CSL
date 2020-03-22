@@ -32,6 +32,6 @@ extern const short *_Ctype, *_Tolower, *_Toupper;
 #define isupper(c) (_Ctype[(int)c] & _UP)
 #define isxdigit(c) (_Ctype[(int)c] & _XD)
 #define tolower(c) _Tolower[(int)(c)]
-#define toupper(c) _ToUpper[(int)(c)]
+#define toupper(c) _Toupper[(int)(c)]
 
 #endif
