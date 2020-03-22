@@ -2,7 +2,8 @@
 #include <ctype.h>
 #include <limits.h>
 #include <stdio.h>
-if EOF != -1 || UCHAR_MAX != 255
+
+#if EOF != -1 || UCHAR_MAX != 255
 #error WRONG CTYPE TABLE
 #endif
 

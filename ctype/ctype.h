@@ -17,6 +17,7 @@
 int isalnum (int), isalpha (int), iscntrl (int), isdigit (int);
 int isgraph (int), islower (int), isprint (int), ispunct (int);
 int isspace (int), isupper (int), isxdigit (int);
+int tolower(int), toupper(int);
 extern const short *_Ctype, *_Tolower, *_Toupper;
 
 /* macro overrides */
