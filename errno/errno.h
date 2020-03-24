@@ -2,7 +2,7 @@
 #define _errno
 
 #ifndef _YVALS
-#include <yvals.h>
+#include "yvals.h"
 #endif
 
 #define EDOM _EDOM
